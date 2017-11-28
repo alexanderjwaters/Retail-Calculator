@@ -1,5 +1,5 @@
 import javax.swing.*;		// Needed for Swing class
-import java.awt.*;			// Needed for FlowLayout
+import java.awt.*;		// Needed for FlowLayout
 import java.awt.event.*;	// Needed for ActionListener
 
 /**
@@ -11,14 +11,14 @@ import java.awt.event.*;	// Needed for ActionListener
 
 public class RetailOrderCalculator extends JFrame
 {
-	private JPanel panel;					// To hold in panel
-	private JLabel greeting;				// To hold greeting
-	private JLabel saleLabel;				// To hold wholeSale
-	private JLabel markupLabel;			// To hold markup
+	private JPanel panel;			// To hold in panel
+	private JLabel greeting;		// To hold greeting
+	private JLabel saleLabel;		// To hold wholeSale
+	private JLabel markupLabel;		// To hold markup
 	private JTextField wholeSaleText;	// To hold text
 	private JTextField markupText;		// To hold text
-	private JButton calcButton;			// To select calculate
-	private JButton exitButton;			// To select exit
+	private JButton calcButton;		// To select calculate
+	private JButton exitButton;		// To select exit
 	
 	// Constants.
 	private final int WINDOW_WIDTH = 400;	// Window width
@@ -170,6 +170,6 @@ public class RetailOrderCalculator extends JFrame
 
 	public static void main(String[] args)
 	{
-		new RetailOrderCalculator();	// Call Construcor
+		new RetailOrderCalculator();	// Call Constructor
 	}
 }
