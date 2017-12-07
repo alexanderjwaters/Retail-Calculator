@@ -126,21 +126,21 @@ public class RetailOrderCalculator extends JFrame
 			// Debugger.
 			System.out.println("\nAdding....");
 			System.out.println("\nSale: " + sale +
-									 "\nMarkUp: " + percent);
+					   "\nMarkUp: " + percent);
 
 			// Sum sale and percent for total.
 			total = sale + percent;
 
 			// Debugger.
 			System.out.println("\nTotal after conversion: " +
-									 total);
+					   total);
 
 			// Display results.
 			JOptionPane.showMessageDialog(null, 
 				String.format("WholeSale: $%,.2f\n" +
-								  "MarkUp: $%,.2f\n" + 
-								  "Total: $%,.2f\n",
-								  sale, percent, total));
+					      "MarkUp: $%,.2f\n" + 
+					      "Total: $%,.2f\n",
+					      sale, percent, total));
 
 			// Debugger.
 			System.out.println("\nReady for input....");
